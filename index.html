@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicting Housing Price</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="logo.jpg" type="image/jpg"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMS3qjz42FNTzFf6fP7Yt3XaN4A1Z4m5/Q7aU5" crossorigin="anonymous">
+</head>
+
+
+<body background="ki.jpg">
+    <div class="container">
+      <header>
+        <h1>Predicting Housing Price</h1>
+        <h5>House Wise combines historical data with current market dynamics to deliver reliable predictions, empowering homeowners and investors with valuable insights into property pricing.</h5>
+        <!-- Example GIF URL -->
+        <img src="for-sale.gif" alt="Description of GIF" class="header-gif">
+        <div class="imagediv"><img src="static/ip1.jpg" alt="" class="img1"></div>
+    </header>
+    
+        <form id="prediction-form">
+            <label for="posted">POSTED BY</label>
+            <select name="posted" id="posted">
+                <option value="team">Owner or Dealer or Builder</option>
+                <option value="Owner">Owner</option>
+                <option value="Dealer">Dealer</option>
+                <option value="Builder">Builder</option>
+            </select>
+            <br>
+
+            <label for="area">Area (sqft):</label>
+            <input type="text" id="area" name="area"><br><br>
+
+            <label for="bedrooms">Number of Bedrooms:</label>
+            <select id="bedrooms" name="bedrooms">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br><br>
+
+            <label for="bathrooms">Number of Bathrooms:</label>
+            <select id="bathrooms" name="bathrooms">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br><br>
+
+            <input type="button" value="Predict" onclick="predictPrice()">
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+      <div class="contact-details">
+          <h3>Contact Me</h3>
+          <ul>
+              <li>
+                  <a href="https://www.linkedin.com/in/suresh-sherikar-320560333" target="_blank">
+                      <i class="fab fa-linkedin"></i> <!-- LinkedIn Icon -->
+                  </a>
+              </li>
+              <li>
+                  <a href="https://github.com/Sureshkitty" target="_blank">
+                      <i class="fab fa-github"></i> <!-- GitHub Icon -->
+                  </a>
+              </li>
+              <li>
+                  <a href="mailto:your-email@example.com">
+                      <i class="fas fa-envelope"></i> <!-- Email Icon -->
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.instagram.com/your-instagram-handle" target="_blank">
+                      <i class="fab fa-instagram"></i> <!-- Instagram Icon -->
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </footer>
+  
+  
+</body>
+</html>
