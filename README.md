@@ -5,9 +5,13 @@ Built a web application that predicts housing prices using AI-like estimation mo
 Key Highlights:
 
 AI-inspired estimation model for reliable property pricing insights.
+
 Responsive design with HTML, CSS, and JavaScript.
+
 Dynamic price calculations for user input, providing accurate results instantly.
-Integrated feedback form for user input, enhancing app adaptability..#WebApp
+
+Integrated feedback form for user input, enhancing app adaptability..
+#WebApp
 #JavaScriptProject
 #HTMLCSS
 #AIInspired
