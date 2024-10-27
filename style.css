@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #444;
+    background: url('feedback1.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+@media (max-width: 600px) {
+    body {
+        background: url('home2.jpeg') no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.welcome-message {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    max-width: 800px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Style for navigation arrows */
+.arrow {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 24px;
+}
+
+.left-arrow {
+    left: 20px;
+}
+
+.right-arrow {
+    right: 20px;
+}
+
+.arrow:hover {
+    background-color: #4CAF50;
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contact-details a {
+    color: #4CAF50;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.contact-details a:hover {
+    color: #fff;
+}

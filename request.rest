@@ -1,0 +1,9 @@
+POST https://script.google.com/macros/s/AKfycbxYSu8BuO2owWhj4b5wyzS8vtt7pjZU1Rdx2Z1m-_n-K3hso1_M-GJOiT-vU9vwgbmN/exec
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "rating": "5",
+    "comments": "Great tool!"
+}
