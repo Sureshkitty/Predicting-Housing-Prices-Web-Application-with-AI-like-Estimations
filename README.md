@@ -1,13 +1,13 @@
 Predicting Housing Prices Web Application with AI-like Estimations
 
-This project is a web application that estimates housing prices based on user inputs, such as area (sqft), number of bedrooms, and bathrooms. It features an AI-inspired estimation model, delivering price predictions for properties in Mumbai, Pune, and Bangalore.
+Built a web application that predicts housing prices using AI-like estimation models. Users input property details such as area (sqft), number of bedrooms, and bathrooms, and receive price predictions for cities like Mumbai, Pune, and Bangalore. The app also includes a feedback feature, enabling users to share their insights directly through a form, with responses automatically stored for easy analysis. This project combines a user-friendly interface with dynamic calculations, offering a seamless experience across desktop and mobile platforms.
 
-Features:
+Key Highlights:
 
-Responsive Design: Built using HTML, CSS, and JavaScript, ensuring compatibility across devices.
-Dynamic Price Calculation: Uses JavaScript to estimate property prices based on predefined models.
-User-Friendly Interface: Includes interactive forms and visual elements for a smooth user experience.
-Explore the code to see how simple rules and calculations can be used for real-world predictions.#WebApp
+AI-inspired estimation model for reliable property pricing insights.
+Responsive design with HTML, CSS, and JavaScript.
+Dynamic price calculations for user input, providing accurate results instantly.
+Integrated feedback form for user input, enhancing app adaptability..#WebApp
 #JavaScriptProject
 #HTMLCSS
 #AIInspired
